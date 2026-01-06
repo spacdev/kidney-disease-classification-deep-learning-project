@@ -1,10 +1,10 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from cnnClassifier import logger
+from src.cnnClassifier import logger
 import json
 import joblib # type: ignore 
-from ensure import ensure_annotations # type: ignore
+from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
 from typing import Any, List, Dict
@@ -33,7 +33,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     except Exception as e:
         raise e
     
-@ensure_annotations
+#@ensure_annotations
 def create_directories(path_to_directories: List[str], verbose:bool=True):
     """create list of directories
     
