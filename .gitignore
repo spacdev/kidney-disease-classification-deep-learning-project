@@ -1,3 +1,8 @@
 artifacts/*
 logs/*
 *.pyc
+mlruns/*
+.dvc
+dvc.lock
+mlflow.db
+.vscode
