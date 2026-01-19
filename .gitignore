@@ -3,6 +3,6 @@ logs/*
 *.pyc
 mlruns/*
 .dvc
-dvc.lock
+#dvc.lock
 mlflow.db
 .vscode
