@@ -2,7 +2,7 @@ from src.cnnClassifier.config.configuration import ConfigurationManager
 from src.cnnClassifier.components.data_ingestion import DataIngestion
 from src.cnnClassifier import logger
 
-STAGE_NAME = "Data Ingestion State"
+STAGE_NAME = "Data Ingestion State" ##
 
 class DataIngestionTrainingPipeline:
     def __init__(self):
